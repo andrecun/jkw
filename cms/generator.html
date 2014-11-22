@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript">
+function onoff(a){
+  var e=document.getElementById('kolom');
+  if(a=="on"){
+    e.style.visibility="visible"
+    e.style.display="block"
+  } else {
+    e.style.visibility="hidden"
+    e.style.display="none"
+  }
+  return true;
+}
+</script>
+</head>
+<body>
+<form name="generator" action="/cgi-bin/generate-static.pl" method="post">
+	Aksi:<br>
+	<input type=radio name=aksi value=generate onclick="return onoff('on')">Generate<br>
+	<input type=radio name=aksi value=sinkron onclick="return onoff('off')">Syncronize<br>
+	<input type=radio name=aksi value=status checked onclick="return onoff('off')">Cek Status<br><br>
+	<div id="kolom" style="display:none">
+	Kolom:<br>
+	<input type=checkbox name=kolom value=topik>Topik<br>
+	<input type=checkbox name=kolom value=fokus>Berita<br>
+	<input type=checkbox name=kolom value=pers>Pers<br>
+	<input type=checkbox name=kolom value=profil>Profil<br>
+	<input type=checkbox name=kolom value=pidato>Pidato<br>
+	<input type=checkbox name=kolom value=wawancara>Wawancara dan Kolom<br>
+	<input type=checkbox name=kolom value=kliping>Kliping<br>
+	<input type=checkbox name=kolom value=perspektif>Perspektif<br>
+	<input type=checkbox name=kolom value=serbaserbi>Serba-serbi<br>
+	<input type=checkbox name=kolom value=km0>Km0<br>
+	<input type=checkbox name=kolom value=galeri>Foto<br>
+	<input type=checkbox name=kolom value=beritafoto>Berita Foto<br>
+	<input type=checkbox name=kolom value=buku>buku<br>
+	<input type=checkbox name=kolom value=ebook1>Capaian Pembangunan<br>
+	<input type=checkbox name=kolom value=ebook2>Satu Dasawarsa Membangun Kesejahteraan Rakyat<br>
+
+	Bulan (yyyydd): <input type=text name=tanggal value="200701"><br>
+	</div>
+	<input type=submit name=borang value="Kirim"><br>
+</form>
+</body>
+</html>

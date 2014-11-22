@@ -1,0 +1,96 @@
+body {
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif;
+	color: #000000;
+}
+
+a:link { 
+	color: #3162a6;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #3162a6;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #ff6600;
+    text-decoration: none;
+}
+
+a:active {
+	color: #3162a6;
+    text-decoration: none;
+}
+
+table, td, div, span {
+	font-size: 11px;
+}
+
+hr {
+	height: 1px;
+	color: #cccccc;
+}
+
+form {
+	display: inline;
+}
+
+.inputtext {
+	border: 1px solid #999999; 
+	background-color: #ffffff;
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.inputsubmit {
+	border: 1px solid #666666; 
+	background-color: #cccccc;
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif;
+	font-size: 11px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.header1 {
+	color: #ffffff;
+	
+}
+
+.header2 {
+	background-color: #80B5D7;
+}
+
+.header3, .footer  {
+	color: #ffffff;
+	background-color: #102D6A;
+}
+
+.menu {
+	color: #ffffff;
+	background-image:url(/images/bg_menu.gif);
+
+}
+
+.tablebg1 {
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+.tablebg2 {
+	border: 1px solid #dddddd;
+	background-color: #eeeeee;
+}
+
+.navon {
+	background-color: #eeeeee; 
+	padding: 4px; 
+	border-right: solid 1px #102d6a;
+}
+
+.navoff {
+	background-color: #3872b2; 
+	padding: 4px; 
+	border-right: solid 1px #102d6a;
+}

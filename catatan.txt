@@ -1,0 +1,1 @@
+ALTER TABLE `login` CHANGE `level` `level` ENUM('1','2','3','4','5','6','7') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT '3'; 

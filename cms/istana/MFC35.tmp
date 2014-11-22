@@ -1,0 +1,28 @@
+<table width="750" class="footer" border="0" cellspacing="0" cellpadding="7" align="center">
+	<tr>
+		<td align="left" valign="bottom" height="30">
+		</td>
+		<td align="center" valign="bottom" height="30">
+			<?php include("../istana/search.inc.php"); ?>
+		</td>
+		<td align="right" valign="bottom" height="30">
+			<a href="../presiden/"><font class="header3">Presiden</font></a> | <a href="../ibunegara/"><font class="header3">Ibu Negara</font></a> | <font class="header3">Istana</font>
+		</td>
+	</tr>
+</table>
+
+<table width="750" class="header2" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><img src="/images/x.gif" alt="" border="" /></td>
+	</tr>
+</table>
+<table width="750" class="header1" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><img src="../../images/cmsistana.jpg" alt="cms" width="750" height="100" /></td>
+	</tr>
+</table>
+<table width="750" class="header2" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><img src="/images/x.gif" alt="" border="" /></td>
+	</tr>
+</table>
